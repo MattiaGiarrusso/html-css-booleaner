@@ -58,6 +58,10 @@ thead {
     background: yellow;
 }
 
+h3 {
+    color: #808080;
+}
+
 section {
     color: white;
     font-weight: bold;
