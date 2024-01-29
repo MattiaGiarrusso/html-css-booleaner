@@ -25,6 +25,13 @@ thead {
     background-color: #b0e4f2;
     }
 
-span {
+.evidence {
     background: yellow;
+}
+
+#suggestion1 {
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-image: url("img\monitor.jpg");
+    height: 600px;
 }
