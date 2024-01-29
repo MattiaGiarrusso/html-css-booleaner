@@ -7,20 +7,25 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <!-- Logo e header della pagina -->
     <header>
         <img id="logo" src="img\logo.svg" alt="TheBooleaner">
     </header>
 
     <main>
+        <!-- inizio articolo -->
         <article>
+            <!-- Titolo dell'articolo -->
             <h1>
                 Internet deve essere al servizio del "bene pubblico": manifesto di Tim Berners-Lee
             </h1>
-
-            <p>Scritto da <span>The Booleaner</span></p>
-            <p>il 29/01/2024</p>
-
-
+            
+            <div class="sottotitolo">
+                <p>Scritto da <span id="booleaner">The Booleaner</span></p>
+                <p id="date">il 29/01/2024</p>
+            </div>
+            
+            <!-- sezione figure -->            
             <figure>
                 <img src="img\tim-1.jpg" alt="Tim-1">
                 <figcaption>1st Photo: John s. and James L. Knight Foundation, by Scott Henrichsen</figcaption>
@@ -28,6 +33,7 @@
                 <figcaption>2nd Photo: Wikimedia, by Paul Clarke</figcaption>
             </figure>
 
+            <!-- primo paragrafo -->
             <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. 
                Ut enim ad minim veniam, <span class="evidence">quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi</span>  
                consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
@@ -41,8 +47,10 @@
                 <li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
                 <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
             </ul>
-            
-            <table>
+
+
+            <!-- tabella con info -->
+            <table cellspacing="0">
                 <thead>
                     <tr>
                         <th>Lorem ipsum dolor sit amet</th>
@@ -69,6 +77,7 @@
                 </tbody>
             </table>
 
+            <!-- secondo paragrafo -->
             <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. 
                 Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi 
                 consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
@@ -78,14 +87,13 @@
                 in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
             
         </article>
-
-        <h3>Potrebbero interessarti</h3>
-        <section id="suggestion1">
-            <p>Lorem ipsum dolor</p>
-        </section>
         
-        <section id="suggestion2">
-            <p>Lorem ipsum dolor</p>
+        <!-- sezione dei suggerimenti -->
+        
+        <h3>Potrebbero interessarti</h3>
+        <section>
+            <div class="suggerito1">Lorem ipsum dolor</div>
+            <div class="suggerito2">Lorem ipsum dolor</div>
         </section>
 
     </main>    

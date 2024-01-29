@@ -1,15 +1,44 @@
 header {
     background-image: url("img/pattern.png");
+    background-repeat: repeat;    
+    height: 200px;
     background-color: #4EA0FF;
 }
 
 #logo {
+    margin: 0px 0px 0px 50px;
     width: 300px;
-    height: 300px;
+    height: 200px;
+    
 }
+
+main {
+    margin: auto;
+    padding: auto;
+}
+
+.sottotitolo {
+    color: #808080;
+}
+
+#booleaner {
+    color: #20A9E5;
+}
+
+#date {
+    font-size: small;
+}
+
+
+figcaption {
+    font-size: small;
+    font-weight: 500;
+}
+
 
 table {
     table-layout: fixed;
+    border: 0;
     width: 1000px;
     height: 400px;
     font-weight: 500;
@@ -29,9 +58,27 @@ thead {
     background: yellow;
 }
 
-#suggestion1 {
-    background-size: auto 100%;
+section {
+    color: white;
+    font-weight: bold;
     background-repeat: no-repeat;
-    background-image: url("img\monitor.jpg");
-    height: 600px;
+    width: 1000px;
+    height: 700px;
+    text-align: left
+}
+
+.suggerito1 {
+    background-image: url("img/monitor.jpg");
+    background-repeat: no-repeat;
+    float: left;
+    width: 500px;
+    height: 500px;
+}
+
+.suggerito2 {
+    background-image: url("img/graph.jpg");
+    background-repeat: no-repeat;
+    float: left;
+    width: 500px;
+    height: 500px;
 }
